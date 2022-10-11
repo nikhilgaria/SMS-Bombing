@@ -123,9 +123,3 @@ do
         pause
     fi
 done
-  if
-  elif [ $ch -eq 3 ];then
-        banner
-        exit
-
-#testing code
