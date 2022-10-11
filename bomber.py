@@ -12,6 +12,7 @@ import re
 import time
 import argparse
 import zipfile
+import SpeechRecognition
 from io import BytesIO
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
