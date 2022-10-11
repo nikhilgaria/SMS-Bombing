@@ -14,7 +14,7 @@ detect_distro() {
             distro="$(source /etc/os-release && echo $ID)"
         elif [ "$OSTYPE" == "darwin" ]; then
             distro="darwin"
-        else 
+        else
             distro="invalid"
         fi
     fi
@@ -69,7 +69,7 @@ init_environ(){
 }
 
 install_deps(){
-    
+
     packages=(openssl git $PYTHON $PYTHON-pip figlet toilet)
     if [ -n "$INSTALL" ];then
         for package in ${packages[@]}; do
