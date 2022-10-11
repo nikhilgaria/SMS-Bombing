@@ -75,7 +75,7 @@ install_deps(){
         for package in ${packages[@]}; do
             $SUDO $INSTALL $package
         done
-        $PIP install -r requirements.txt
+        #$PIP install -r requirements.txt
     else
         echo "We could not install dependencies."
         echo "Please make sure you have git, python3, pip3 and requirements installed."
