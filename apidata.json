@@ -76,15 +76,6 @@
                 "identifier": "sent"
             },
             {
-                "name": "OptimHire",
-                "method": "GET",
-                "url": "https://optimhire.com/partners/otp",
-                "params": {
-                    "mobile": "{target}"
-                },
-                "identifier": "sent"
-            },
-            {
                 "name": "allensolly",
                 "method": "POST",
                 "url": "https://www.allensolly.com/capillarylogin/validateMobileOrEMail",

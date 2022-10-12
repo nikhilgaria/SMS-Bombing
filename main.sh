@@ -38,7 +38,7 @@ banner() {
         toilet -f mono12 -F border EdWin
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Linkedin: https://linkedin/nikhil-garia \e[0m"
+    echo -e "\e[1;32m           Linkedin: https://www.linkedin.com/in/nikhil-garia/ \e[0m"
     echo " "
 }
 
