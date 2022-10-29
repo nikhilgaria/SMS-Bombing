@@ -119,7 +119,7 @@ do
         banner
         exit
     else
-        echo -e "\e[4;32m Invalid valid Input !!! \e[0m"
+        echo -e "\e[4;32m please enter valid input !!! \e[0m"
         pause
     fi
 done
